@@ -1,0 +1,31 @@
+{
+  "name": "startup",
+  "version": "0.0.1",
+  "description": "Template repository for all my projects.",
+  "main": "./dist/app.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./dist/app.js",
+    "dev": "nodemon"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "repository": "https://github.com/LWJerri/startup",
+  "author": "LWJerri (lwjerri.js.org)",
+  "license": "MIT",
+  "dependencies": {
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "@types/source-map-support": "^0.5.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
