@@ -11,7 +11,7 @@
     "dev": "tsx watch ./src/app.ts"
   },
   "engines": {
-    "node": ">= 16"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
@@ -24,14 +24,10 @@
     "url": "https://github.com/LWJerri/startup-app/issues"
   },
   "homepage": "https://github.com/LWJerri/startup-app#readme",
-  "dependencies": {
-    "source-map-support": "^0.5.21"
-  },
   "devDependencies": {
-    "@types/node": "^20.4.4",
-    "@types/source-map-support": "^0.5.6",
+    "@types/node": "^20.6.5",
     "prettier": "^3.0.0",
-    "tsx": "^3.12.7",
+    "tsx": "^3.13.0",
     "typescript": "^5.1.6"
   }
 }
