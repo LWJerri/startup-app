@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@types/node':
     specifier: ^20.6.5
-    version: 20.7.1
+    version: 20.7.2
   prettier:
     specifier: ^3.0.0
     version: 3.0.3
@@ -218,8 +218,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node@20.7.1:
-    resolution: {integrity: sha512-LT+OIXpp2kj4E2S/p91BMe+VgGX2+lfO+XTpfXhh+bCk2LkQtHZSub8ewFBMGP5ClysPjTDFa4sMI8Q3n4T0wg==}
+  /@types/node@20.7.2:
+    resolution: {integrity: sha512-RcdC3hOBOauLP+r/kRt27NrByYtDjsXyAuSbR87O6xpsvi763WI+5fbSIvYJrXnt9w4RuxhV6eAXfIs7aaf/FQ==}
     dev: true
 
   /buffer-from@1.1.2:
