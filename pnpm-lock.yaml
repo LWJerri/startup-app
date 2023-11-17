@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@types/node':
     specifier: ^20.8.0
-    version: 20.9.0
+    version: 20.9.1
   prettier:
     specifier: ^3.0.0
     version: 3.0.3
@@ -218,8 +218,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node@20.9.0:
-    resolution: {integrity: sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==}
+  /@types/node@20.9.1:
+    resolution: {integrity: sha512-HhmzZh5LSJNS5O8jQKpJ/3ZcrrlG6L70hpGqMIAoM9YVD0YBRNWYsfwcXq8VnSjlNpCpgLzMXdiPo+dxcvSmiA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
